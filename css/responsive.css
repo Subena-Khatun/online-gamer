@@ -1,5 +1,5 @@
 @media screen and  (max-width:425px){
-    .conatiner{
+    .container{
         width: 100%;
     }
     nav{
@@ -24,7 +24,7 @@
     }
 }
 @media screen and  (max-width:768px){
-    .conatiner{
+    .container{
         width: 100%;
     }
 }
