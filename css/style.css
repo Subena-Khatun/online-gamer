@@ -207,16 +207,102 @@ nav, .nav-menu, .follow-us, .nav-logo, .about-content {
 .play-game-img{
    position: relative;
    margin-left: 100px;
-    width: 100%;
+   width: 100%;
 }
-   
-
 .play-img2{
     position: absolute;
     top: 360px;
     right: 500px;
     width: 300px;
+}
+
+/* features-game-iteams */
+.online-features-game{
+    padding: 100px 0px;
+}
+.features-game-top{
+    padding-bottom: 30px;
+}
+.features-game-iteams{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.feture-item img{
+    width: 100%;
+}
+.features-game-top h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.features-game-top h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.features-game-top p{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 0px;
+}
+.feature-img{
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid #ffffff;
+    /* width: 300px;
+    height: 400px */
+    height: 400px;
+}
+.feature-img img{
+    width: 100%;
+    height: 100%;
+    line-height: 400px;
+}
+.feature-item-overlay{
+    visibility: hidden;
+}
+.feature-img:hover .feature-item-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    visibility: visible;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.60);
+    border: 1px solid #FF42A5;
     
+    
+}
+
+.feature-item-overlay .feature-overlay-icon{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 100px;
+    text-align: center;
+}
+.content{
+    text-align: center;
+    padding: 150px 30px;
+}
+.wach-now{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF42A5;
+    padding-top: 10px;
+}
+
+.feture-item p{
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 15px;
 }
 /* play-game-content */
 .game-zone{
