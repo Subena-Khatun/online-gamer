@@ -69,6 +69,32 @@
             line-height: normal;
             
         }
+        .online-features-game {
+            padding: 49px 0px;
+        }
+        /*  */
+        .feture-item p {
+            color: #534C64;
+            font-size: 12px;
+        }
+        .play-game-des {
+            padding-right: 0px;
+        }
+        /* .play-game-img {
+            margin-left: 0px;
+        }
+        .play-game-img{
+            width: auto;
+        } */
+        .play-game-img{
+            display: none;
+        }
+        .menu-1{
+            flex-wrap: wrap;
+        }
+        .menu-1 li {
+            padding: 10px 15px;
+        }
 
 }
 @media screen and  (max-width:768px){
