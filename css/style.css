@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.conatiner{
+    width: 1200px;
+    margin: 0 auto;
+}
+nav, .nav-menu, .follow-us, .nav-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.logo-text{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+.nav-logo img{
+    margin-right: 20px;
+}
+.logo-text span{
+    color: #FF42A5;
+}
+.nav-menu li{
+   padding: 0px 15px;
+}
+
+.nav-menu li a{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.follow-us{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 0px;
+}
+.fa-youtube{
+    color: #F61C0D;
+}

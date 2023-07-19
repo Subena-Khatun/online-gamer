@@ -1,0 +1,30 @@
+@media screen and  (max-width:425px){
+    .conatiner{
+        width: 100%;
+    }
+    nav{
+        padding: 40px 0px;
+    }
+    nav, .nav-menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-menu li{
+        /* padding: 15px 15px; */
+        
+     }
+     .follow-us{
+        margin-top: 30px;
+     }
+     .nav-logo img{
+        margin-right: 0px;
+    }
+    .menu-about{
+        margin: 25px 0px;
+    }
+}
+@media screen and  (max-width:768px){
+    .conatiner{
+        width: 100%;
+    }
+}
