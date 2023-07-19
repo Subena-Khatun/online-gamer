@@ -19,7 +19,7 @@ a{
 nav{
     padding: 30px 0px;
 }
-nav, .nav-menu, .follow-us, .nav-logo{
+nav, .nav-menu, .follow-us, .nav-logo, .about-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +57,8 @@ nav, .nav-menu, .follow-us, .nav-logo{
 
 /* banner css start */
 .banner{
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .banner-content{
     display: flex;
@@ -66,7 +67,7 @@ nav, .nav-menu, .follow-us, .nav-logo{
     
 }
 .banner-des{
-    
+    /* background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); */
     /* margin-right: 100px; */
 }
 .banner-img {
@@ -121,3 +122,184 @@ nav, .nav-menu, .follow-us, .nav-logo{
     background: #4EC5F7;
     margin-left: 20px;
 }
+
+/* about css */
+.about-section{
+    padding: 40px 0px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.about-img{
+    width: ;
+}
+.about-content{
+    align-items: center;
+}
+.about-content img{
+    width: 100%;
+    /* margin-right: 30px; */
+}
+.about-des{
+    text-align: right;
+    max-width: 520px;
+}
+
+.about-title{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.purpose{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+}
+.blockqutes{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+/* play game css */
+.play-game{
+    padding: 50px 0px 120px 0px;
+}
+.play-game-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-game-des{
+    max-width: 350px;
+    margin: 0 auto;
+    padding-right: 100px;
+}
+.play-game-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    color: #0B0223;
+    
+}
+.play-game-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-game-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    text-align: center;
+}
+.play-game-img{
+   position: relative;
+   margin-left: 100px;
+    width: 100%;
+}
+   
+
+.play-img2{
+    position: absolute;
+    top: 360px;
+    right: 500px;
+    width: 300px;
+    
+}
+/* play-game-content */
+.game-zone{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 100px 0px;
+}
+.game-zone-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.game-item{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    border: 1px solid #FFF;
+    padding: 10px;
+}
+.game-item:hover{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #FF42A5;
+    
+}
+.game-itme-img{
+    width: 60px;
+}
+.game-itme-title{
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+/* footer css */
+footer{
+    background: #0B0223;
+    color: #FFF;
+    text-align: center;
+    padding: 100px 0px
+}
+.footer-logo img{
+   
+}
+.footer-logo-text{
+    color: #ffffff;
+}
+.menu-1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.menu-1 li{
+    padding: 0px 15px;
+}
+.menu-1 li a{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.menu-2 li a{
+    font-size: 25px;
+}
+.menu-3 li a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-para{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
