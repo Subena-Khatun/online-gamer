@@ -191,6 +191,9 @@
             font-size: 41px;
             padding-bottom: 20px;
         }
+        .play-game-description {
+            padding-bottom: 40px;
+        }
         .play-game {
             padding: 50px 0px 40px 0px;
         }
